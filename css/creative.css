@@ -21,8 +21,17 @@ hr {
 }
 
 .hr-long {
-  max-width: 500px;
+  width: 500px;
+  border-color:  #4A90E2;
 }
+
+.h-divider { 
+margin-top:5px;
+margin-bottom:5px;
+height:10px;
+width:100%;
+border-top:1px solid gray;
+} 
 
 subhed {
   font-size: 24px;
@@ -57,7 +66,7 @@ h6 {
 }
 
 p {
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .bg-primary {
@@ -68,14 +77,21 @@ p {
   background-color: #212529 !important;
 }
 
-.bg-secondary {
-  background-color: purple !important;
-}
-
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
 
+.badge{
+  font-size: 14px;
+}
+
+.badge-primary {
+ background-color: #4A90E2
+}
+
+.badge-pill{
+  padding: 8px;
+}
 section {
   padding: 3rem 0;
 }
@@ -156,21 +172,21 @@ img::-moz-selection {
     background-color: transparent;
   }
   #mainNav .navbar-brand {
-    color: rgba(255, 255, 255, 0.7);
+    color: #4A90E2;
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #fff;
+    color: #F5A623;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
     padding: 0.5rem 1rem;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: rgba(255, 255, 255, 0.7);
+    color:  #212529;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #fff;
+    color: #F5A623;
   }
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
@@ -180,7 +196,7 @@ img::-moz-selection {
     color: #4A90E2;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #4A90E2;
+    color: #F5A623;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
@@ -188,7 +204,7 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #4A90E2;
+    color:  #F5A623;
   }
 }
 
@@ -218,7 +234,7 @@ header.masthead p {
 
 @media (min-width: 768px) {
   header.masthead p {
-    font-size: 1.15rem;
+    font-size: 18px;
   }
   
   .avatar {
