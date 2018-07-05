@@ -41,10 +41,6 @@ subhed {
   width: 75px;
 }
 
-hr.light {
-  border-color: #fff;
-}
-
 a {
   color: #4A90E2;
   -webkit-transition: all 0.2s;
@@ -169,7 +165,7 @@ img::-moz-selection {
 @media (min-width: 992px) {
   #mainNav {
     border-color: transparent;
-    background-color: transparent;
+    background-color: #fff;
   }
   #mainNav .navbar-brand {
     color: #4A90E2;
@@ -192,6 +188,7 @@ img::-moz-selection {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
     background-color: #fff;
   }
+
   #mainNav.navbar-shrink .navbar-brand {
     color: #4A90E2;
   }
